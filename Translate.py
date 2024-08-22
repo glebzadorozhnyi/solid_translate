@@ -43,5 +43,5 @@ if __name__ == "__main__":
 
     text_output = translate(st.session_state['input_text'], solid_alphabet_big, solid_alphabet_small, normal_alphabet_big, normal_alphabet_small)
 
-    st.markdown('<p class="big-font">Потом нажмите на окошко ниже. Справа у окошка есть кнопочка Скопировать</p>', unsafe_allow_html=True)
+    st.markdown('<p class="big-font">Потом нажмите на окошко ниже. Справа у окошка появится кнопочка Скопировать</p>', unsafe_allow_html=True)
     st.code(text_output, language='None')
