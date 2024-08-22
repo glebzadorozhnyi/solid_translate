@@ -31,9 +31,10 @@ def font_style():
     """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
-    font_style()
+
     st.set_page_config("Переводчик с Солидворковского")
 
+    font_style()
     st.title('Áîáûøêà -> Бобышка')
 
     solid_alphabet_big, solid_alphabet_small, normal_alphabet_big, normal_alphabet_small = get_alphabtes()
